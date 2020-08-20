@@ -16,14 +16,13 @@ Jeecg Spring Boot Starter Demo.
 ## Usage
 
 **步骤**
-1. 拉取[jeecg-spring-boot-starter](https://github.com/tanpenggood/jeecg-spring-boot-starter)，执行`mvn install`将它安装到本地仓库
-2. 新建`spring boot`项目
-3. 引入依赖`jeecg-spring-boot-starter`（步骤一安装在本地的）
-4. 相关类
+1. 新建`spring boot`项目
+2. 引入依赖`jeecg-spring-boot-starter`
+3. 相关类
     - org.jeecg.JeecgApplication
     - org.jeecg.JeecgOneGUI
     - org.jeecg.JeecgOneToMainUtil
-5. 相关资源
+4. 相关资源
     ```
     resources
         jeecg
@@ -36,3 +35,4 @@ Jeecg Spring Boot Starter Demo.
         banner.txt
         logback-spring.xml
     ```
+5. 启动项目，使用[jeectboot的前端](https://github.com/zhangdaiscott/jeecg-boot/tree/master/ant-design-vue-jeecg)访问
