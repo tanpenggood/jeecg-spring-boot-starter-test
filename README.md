@@ -2,22 +2,18 @@
 
 demo of [jeecg-spring-boot-starter](https://github.com/tanpenggood/jeecg-spring-boot-starter).
 
-## Maven Install
-
-在项目的pom.xml的dependencies中加入以下内容:
-```xml
-<dependency>
-    <groupId>com.itplh.opensource</groupId>
-    <artifactId>jeecg-spring-boot-starter</artifactId>
-    <version>2.2.1</version>
-</dependency>
-```
-
 ## Usage
 
 **步骤**
 1. 新建`spring boot`项目
 2. 引入依赖`jeecg-spring-boot-starter`
+    ```xml
+    <dependency>
+        <groupId>com.itplh.opensource</groupId>
+        <artifactId>jeecg-spring-boot-starter</artifactId>
+        <version>2.2.1</version>
+    </dependency>
+    ```
 3. 相关类
     - org.jeecg.JeecgApplication
     - org.jeecg.JeecgOneGUI
