@@ -1,8 +1,8 @@
-## 简介
+## Introduction
 
-Jeecg Spring Boot Starter Demo.
+demo of [jeecg-spring-boot-starter](https://github.com/tanpenggood/jeecg-spring-boot-starter).
 
-## Maven安装
+## Maven Install
 
 在项目的pom.xml的dependencies中加入以下内容:
 ```xml
